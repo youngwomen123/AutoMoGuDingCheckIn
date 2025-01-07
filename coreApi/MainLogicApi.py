@@ -372,7 +372,7 @@ class ApiClient:
         # 有问卷就自动填写
         for item in formFieldDtoList:
             # 默认暂时就先选个 b 吧
-            item["value"] = "b"
+            item["value"] = "a"
 
         return formFieldDtoList
 
